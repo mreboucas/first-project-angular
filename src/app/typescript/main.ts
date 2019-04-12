@@ -1,6 +1,6 @@
 var mainhaVar = 'Minha variável';
 
-function minhaFunction(w,y) {
+function minhaFunction(x,y) {
     return x + y;
 }
 
