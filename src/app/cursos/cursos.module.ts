@@ -13,8 +13,7 @@ import { CursosDetalheComponent } from './cursos-detalhe/cursos-detalhe.componen
     CursosDetalheComponent
   ],
   imports: [
-    
-    CommonModule
+    CommonModule 
   ],
   exports: [
     CursosComponent
