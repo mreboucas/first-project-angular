@@ -14,12 +14,15 @@ import { CursosService } from './cursos/cursos.service';
     AppComponent,
     MeuPrimeiroComponent,
     MeuPrimeiro2Component,
+
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
     CursosModule
   ],
+  
   providers: [
     CursosService
   ],
