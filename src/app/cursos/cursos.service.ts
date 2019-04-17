@@ -5,9 +5,24 @@ import { Injectable } from '@angular/core';
 })
 export class CursosService {
 
+  private show:boolean = false;
+  cursos:string[];
+
   constructor() { }
 
   getCursos() {
     return ['Java', 'Ext Js','Angular','Phyton'];
+  }
+
+  isToShow() {
+
+    let cursoArray = this.getCursos();
+    for (var curso of cursoArray) {
+      if (curso.toLowerCase().startsWith('p')) {
+        this.show = true;
+      }
+    }
+
+    return this.show;
   }
 }

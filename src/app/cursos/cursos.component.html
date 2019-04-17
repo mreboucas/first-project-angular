@@ -3,11 +3,17 @@
 </p>
 
 <app-cursos-detalhe></app-cursos-detalhe>
+  
+  <ul>
+    <li *ngFor="let curso of cursos">
+      {{ curso }}
+    </li>
+  </ul>
 
-<ul>
-  <li *ngFor="let curso of cursos">
-    {{ curso }}
-  </li>
-</ul>
-
-<li *ngFor="let item of items"></li>>
+<div>
+    <ol *ngIf="show">
+      <li *ngFor="let curso of cursos">
+        {{ curso }}
+      </li>
+  </ol>
+</div>
