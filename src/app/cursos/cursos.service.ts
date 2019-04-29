@@ -1,5 +1,8 @@
 import { Injectable } from '@angular/core';
 
+/**
+ * Essa classe de serviço pode ser injetada em outra classe por meio dessa anotação.
+ */
 @Injectable({
   providedIn: 'root'
 })

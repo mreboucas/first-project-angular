@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 //componente que é injetado dentro do módulo
 import { CursosComponent } from './cursos.component';
 import { CursosDetalheComponent } from './cursos-detalhe/cursos-detalhe.component';
+import { CursosService } from './cursos.service';
 
 @NgModule({
   declarations: [

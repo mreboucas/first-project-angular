@@ -20,7 +20,7 @@ export class CursosComponent implements OnInit {
     //var service = new CursosService();
 
     this.cursos = this.cursosService.getCursos();
-
+  
     this.show = this.cursosService.isToShow();
 
   }

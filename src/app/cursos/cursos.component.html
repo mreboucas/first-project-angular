@@ -4,16 +4,19 @@
 
 <app-cursos-detalhe></app-cursos-detalhe>
   
-  <ul>
-    <li *ngFor="let curso of cursos">
+  <div>
+    <div *ngFor="let curso of cursos">
       {{ curso }}
-    </li>
-  </ul>
+    </div>
+  </div>
 
-<div>
-    <ol *ngIf="show">
-      <li *ngFor="let curso of cursos">
-        {{ curso }}
-      </li>
-  </ol>
-</div>
+  <!--
+
+    <div>
+      <div *ngIf="show">
+        <div *ngFor="let curso in cursos">
+          {{ curso }}
+        </div>
+      </div>
+    </div>
+  -->
