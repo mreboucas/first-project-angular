@@ -29,7 +29,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Agular cli
 Facilitar a criação de todas as estruturas do projeto: projecto, módulos, services, components
-## PLUGINS
+
+## PLUGINS AUXILIARES
 Auto import
 Angular 7 and TypeScript/HTML VS Code Snippets (atalhos apra criação de estruturas do projeto, por meio do ag-[...])
 Html snippets
