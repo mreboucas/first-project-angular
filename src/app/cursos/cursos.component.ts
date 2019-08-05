@@ -16,7 +16,9 @@ export class CursosComponent implements OnInit {
 
     this.nomePortal = "https://loiane.training/";
     //this.cursos = ['Java', 'Ext Js','Angular'];
-
+    /**
+     * Leva para o construtor da classe CursosComponent para fucionar com a injeção de penpendência
+     */
     //var service = new CursosService();
 
     this.cursos = this.cursosService.getCursos();

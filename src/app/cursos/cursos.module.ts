@@ -18,6 +18,12 @@ import { CursosService } from './cursos.service';
   ],
   exports: [
     CursosComponent
+  ],
+  /**
+   * Prover a classe Curso Service
+   */
+  providers :[
+    CursosService
   ]
 })
 export class CursosModule { }

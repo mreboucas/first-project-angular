@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 # FirstProject
+Projeto de análise sobre o framework angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
@@ -26,7 +26,28 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# first-project-angular
-Projeto de análise sobre o framework angular
->>>>>>> 9f002ea988a4579b7ff9a1629d9f15c46241c34a
+
+## Agular cli
+Facilitar a criação de todas as estruturas do projeto: projecto, módulos, services, components
+## PLUGINS
+Auto import
+Angular 7 and TypeScript/HTML VS Code Snippets (atalhos apra criação de estruturas do projeto, por meio do ag-[...])
+Html snippets
+Ionic snippets (para ionic projects)
+vscode-icons
+
+
+
+## Shortcuts - VS code
+Browse for extensions (plugins): Ctrl+Shift+X.
+
+## Angular cli comands
+g --generate
+s --service
+c --component
+
+## Generate component with angular-cli
+ng g c directory/sercice_name
+
+## Generate sercice with angular-cli
+ng g s directory/sercice_name
