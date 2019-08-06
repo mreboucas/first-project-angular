@@ -47,8 +47,22 @@ g --generate
 s --service
 c --component
 
+reference guide angular cli: CLI Overview and Command Reference
+https://angular.io/cli
+
 ## Generate component with angular-cli
 ng g c directory/sercice_name
 
 ## Generate sercice with angular-cli
 ng g s directory/sercice_name
+
+## Get images URLS
+https://picsum.photos/
+http://lorempixel.com/
+
+##Booststrap
+https://getbootstrap.com/
+Formas de colocar no projeto:
+1) copiar e colar o link no index.html do projeto
+2) instalar o plugin: ng2-bootstrap
+ link do plugin: https://valor-software.com/ngx-bootstrap/#/
