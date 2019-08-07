@@ -15,7 +15,7 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
     AppComponent,
     MeuPrimeiroComponent,
     MeuPrimeiro2Component,
-    DataBindingComponent,
+    DataBindingComponent
 
   ],
 
