@@ -66,3 +66,6 @@ Formas de colocar no projeto:
 1) copiar e colar o link no index.html do projeto
 2) instalar o plugin: ng2-bootstrap
  link do plugin: https://valor-software.com/ngx-bootstrap/#/
+
+ Componentes <br>
+ https://getbootstrap.com/docs/4.3/components/alerts/
