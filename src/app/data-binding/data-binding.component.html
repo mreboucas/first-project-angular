@@ -20,9 +20,38 @@
 
   <article>
     <h3>Class e Style Binding</h3>
-    <div>Selecione uma classe</div>
-    <div class = "alert alert-sucess" role="alert">...</div>
- 
+    <div>Selecione uma classe
+      <select #classe (change)="0">
+        <option value="alert-success">Sucesso</option>
+        <option value="alert-info">Info</option>
+        <option value="alert-warning">Alerta</option>
+        <option value="alert-danger">Erro</option>
+      </select>
+      <br><br>
+  
+      <div class="alert" role="alert" [class.alert-success]="classe.value == 'alert-success'">
+        Sucesso
+      </div>
+      <!-- <div class="alert alert-secondary" role="alert" class.alert-success]="classe.value == 'alert-success'">
+        A simple secondary alert—check it out!
+      </div> -->
+      
+      <div class="alert" role="alert" [class.alert-danger]="classe.value == 'alert-danger'">
+        Erro
+      </div>
+      <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+      </div>
+      <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+      </div>
+      <div class="alert alert-light" role="alert">
+        A simple light alert—check it out!
+      </div>
+      <div class="alert alert-dark" role="alert">
+        A simple dark alert—check it out!
+      </div>
+  </div>
   </article>
 
 </section>
