@@ -28,7 +28,19 @@
         <option value="alert-danger">Erro</option>
       </select>
       <br><br>
-  
+      <!-- outra forma de fazer o class binding por interpolação-->
+      <div class="{{ classe.value }}" role="alert">
+        Texto colorido conforme combobox
+      </div>
+
+      <!-- Forma de fazer o display binding-->
+      <div class="alert alert-danger" role="alert"
+           [style.display]="classe.value == 'alert-danger' ? 'none' : 'none'" 
+      >
+        Esse texto aparece somente em caso de erro.
+      </div>
+      
+      <!-- class binding [class]-->
       <div class="alert" role="alert" [class.alert-success]="classe.value == 'alert-success'">
         Sucesso
       </div>
