@@ -25,6 +25,14 @@ export class DataBindingComponent implements OnInit {
     return true;
   }
 
+  botaoClicado() {
+    alert('Ow, recebi um clique')
+  }
+
+  onkeyUp(event:KeyboardEvent) {
+    console.log((<HTMLInputElement>event.target).value); 
+  }
+
   constructor() { 
 
   }

@@ -69,3 +69,7 @@ Formas de colocar no projeto:
 
  Componentes <br>
  https://getbootstrap.com/docs/4.3/components/alerts/
+
+
+##BINDING VS EVENT
+BINDING -> [] e EVENT -> ()
