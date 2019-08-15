@@ -1,5 +1,5 @@
-# FirstProject
-Projeto de análise sobre o framework angular
+# Angular Warmup Project
+Analysis project about angular framework
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
@@ -73,3 +73,6 @@ Formas de colocar no projeto:
 
 ##BINDING VS EVENT
 BINDING -> [] e EVENT -> ()
+
+
+https://res.cloudinary.com/practicaldev/image/fetch/s--7Slyklyc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/2xzsf2dx9w8dmp41jk9z.png
