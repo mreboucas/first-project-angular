@@ -74,6 +74,6 @@ Formas de colocar no projeto:
 ##BINDING VS EVENT
 BINDING -> [] e EVENT -> ()
 
-#Angular Architecture Model
+## Angular Architecture Model
 
 ![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--7Slyklyc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/2xzsf2dx9w8dmp41jk9z.png)
