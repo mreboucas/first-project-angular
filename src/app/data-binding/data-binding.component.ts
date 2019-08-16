@@ -14,6 +14,13 @@ export class DataBindingComponent implements OnInit {
   urlImage:string = "https://picsum.photos/200/300?grayscale"
 
   cursoAngular = true
+
+  valorAtual: string = '';
+
+  valorSalvo: string = '';
+
+  isMouseOver: boolean = false;
+
 /**
  * ES 2015 não precisa declarecer a função com o nome function, pode ser omitido. E tb dispensa ;
  */
@@ -30,11 +37,20 @@ export class DataBindingComponent implements OnInit {
   }
 
   onkeyUp(event:KeyboardEvent) {
-    console.log((<HTMLInputElement>event.target).value); 
+  //console.log((<HTMLInputElement>event.target).value); 
+  this.valorAtual = (<HTMLInputElement>event.target).value;
+  }
+
+  salvarValor(value) {
+    this.valorSalvo = value;
   }
 
   constructor() { 
 
+  }
+
+  onMouseOverOut() {
+    this.isMouseOver = !this.isMouseOver;
   }
 
   ngOnInit() {

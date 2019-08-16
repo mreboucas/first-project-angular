@@ -75,8 +75,30 @@
 <article>
   <h3>Event binding</h3>
   <div>
-    <button (click)="botaoClicado()" class="btn btn-primary">Me clique</button>
+    <!-- Evento : () -->
+    <!-- Property Binding : [] -->
+    <button (click)="botaoClicado()"  
+    class="btn btn-primary">Me clique</button>
     <br>
-    <input type="text" (keyup)="onkeyUp($event)">
+    <!--
+      (keyup.enter)="salvarValor($event.target.value)"  
+      Essa abordagem é substituida pelao atributo da tag: #campoInput
+
+    -->
+    <input type="text" 
+      (keyup)="onkeyUp($event)"
+      (keyup.enter)="salvarValor(campoInput.value)"  
+      (blur)="salvarValor(campoInput.value)"
+      #campoInput
+
+    >
+    <p>Valor atual: {{ valorAtual }}</p>
+
+    <p>Valor salvo: {{ valorSalvo }}</p>
+    <br>
+    <span (mouseover)="onMouseOverOut()" 
+          (mouseourt)="onMouseOverOut()"
+          [class.highlight]="isMouseOver"
+    >Passe o mouse sobre mim:</span>
   </div>
 </article>
